@@ -46,7 +46,7 @@
     };
 
     // Load GeoJSON data from an external file
-    fetch('https://raw.githubusercontent.com/JAAAE/Tai_Wan_Bao_Tu_DeepLearning_digilization/38ac5fc2b78772d1bfa4463178785b06d5185f17/Yunlin_Built_Up_Area_3826.geojson')
+    fetch('https://raw.githubusercontent.com/JAAAE/Tai_Wan_Bao_Tu_DeepLearning_digilization/38ac5fc2b78772d1bfa4463178785b06d5185f17/Yunlin_Built_Up_Area_4326.geojson')
         .then(response => response.json())
         .then(data => {
             // Create a GeoJSON layer with custom style and add it to the map
@@ -67,7 +67,7 @@
     L.control.scale().addTo(map);
 
     // Add the bottom layer with 0.3 opacity
-    fetch('https://raw.githubusercontent.com/JAAAE/Tai_Wan_Bao_Tu_DeepLearning_digilization/main/Yunlin.geojson')
+    fetch('https://raw.githubusercontent.com/JAAAE/Tai_Wan_Bao_Tu_DeepLearning_digilization/main/Yunlin_4326.geojson')
         .then(response => response.json())
         .then(data => {
             // Create a GeoJSON layer with custom style and opacity and add it to the map
