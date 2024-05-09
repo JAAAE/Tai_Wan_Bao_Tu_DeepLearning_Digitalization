@@ -1,3 +1,3 @@
-# Tai_Wan_Bao_Tu_DeepLearning_digitalization
+# Tai_Wan_Bao_Tu_DeepLearning_Digitalization
 
-https://jaaae.github.io/Tai_Wan_Bao_Tu_DeepLearning_digitalization/
+https://jaaae.github.io/Tai_Wan_Bao_Tu_DeepLearning_Digitalization/
